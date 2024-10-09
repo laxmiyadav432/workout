@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Workout Tracker</h1>
+    
+    <form id="workoutForm" class="form">
+      <div class="form-group">
+        <label for="type" class="work">Workout Type:</label>
+        <input type="text" id="type" placeholder="e.g., Running, Yoga" required>
+      </div>
+      <div class="form-group">
+        <label for="duration" class="dura">Duration (minutes):</label>
+        <input type="number" id="duration" placeholder="e.g., 30" required>
+      </div>
+      <div class="form-group">`
+        <label for="intensity" class="in">Intensity:</label>
+        <select id="intensity" required>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="caloriesBurned" class="cal">Calories Burned:</label>
+        <input type="number" id="caloriesBurned" placeholder="e.g., 300" required>
+      </div>
+      <button type="submit" class="submit-btn">Log Workout</button>
+    </form>
+
+    <div class="history-section">
+      <h2>Workout History</h2>
+      <div id="workoutList" class="history-list"></div>
+    </div>
+
+    <div class="calories-section">
+      <h2>Total Calories Burned</h2>
+      <p id="totalCalories">0 Calories</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+ 

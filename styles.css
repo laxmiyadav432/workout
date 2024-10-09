@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://img.freepik.com/premium-photo/watch-with-dumbbells-barbell-mat-sports-3d-rendering-illustration-retro-wave-style_499459-574.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  h1,h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1f65d7;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #fd7231;
+    border: 3px solid yellow;
+  }
+  
+  .history-section {
+    margin-top: 30px;
+  }
+  
+  .history-section h2 {
+    text-align: center;
+  }
+  
+  .history-list {
+    padding: 0;
+  }
+  
+  .workout-item {
+    padding: 10px;
+    background-color: #d8ed62;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .workout-item:hover{
+    background-color: #788914;
+    color: #fff;
+  }
+  
+  .workout-item strong {
+    font-weight: bold;
+  }
+  
+  .workout-item button {
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .workout-item button:hover {
+    background-color: #c82333;
+  }
+  
+  .calories-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .total-calories {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  #intensity{
+    background-color: white;
+  }
+  .work , .dura,.in, .cal{
+    color: #0d51bf;
+  }
+  
